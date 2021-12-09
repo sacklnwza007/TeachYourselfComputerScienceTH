@@ -1,3 +1,3 @@
 # TeachYourselfComputerScienceTH
 
-# Original https://teachyourselfcs.com/
+# [Original] (https://teachyourselfcs.com/)
