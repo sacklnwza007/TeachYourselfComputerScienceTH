@@ -141,5 +141,23 @@
 
 สําหรับพีชคณิตเชิงเส้นเราขอแนะนําให้เริ่มต้นด้วย[สาระสําคัญของชุดวิดีโอพีชคณิตเชิงเส้น](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)ตามด้วยการบรรยาย[หนังสือ](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/)และ[วิดีโอ](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/)ของกิลเบิร์ตสแตรง
 
+> หากผู้คนไม่เชื่อว่าคณิตศาสตร์นั้นง่าย เพราะพวกเขาไม่รู้ว่าชีวิตที่ซับซ้อนเป็นอย่างไร
+*— John von Neumann*
+
+### ระบบปฏิบัติการ หรือ OS
+
+[แนวคิดระบบปฏิบัติการ](https://www.amazon.com/dp/1118063333/) ("หนังสือไดโนเสาร์") และ[ระบบปฏิบัติการสมัยใหม่](https://www.amazon.com/dp/013359162X/)เป็นหนังสือ "คลาสสิก" เกี่ยวกับระบบปฏิบัติการ ทั้งสองได้รับการวิพากษ์วิจารณ์เนื่องจากขาดความชัดเจนและความไม่เป็นมิตรของนักเรียนทั่วไป
+
+ระบบปฏิบัติการ: Three Easy Pieces เป็นทางเลือกที่ดีที่ออนไลน์ได้อย่างอิสระ โดยเฉพาะอย่างยิ่งเราชอบโครงสร้างและการอ่านของหนังสือและรู้สึกว่าการออกกําลังกายนั้นคุ้มค่า
+
+หลังจาก OSTEP เราขอแนะนําให้คุณสํารวจการตัดสินใจออกแบบระบบปฏิบัติการเฉพาะผ่านหนังสือสไตล์ "{OS} Internals" เช่นความเห็นของ [Lion's commentary on Unix](https://www.amazon.com/Lions-Commentary-Unix-John/dp/1573980137/) , [The Design and Implementation of the FreeBSD Operating System](https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972/) และ [Mac OsX](https://www.amazon.com/Mac-OS-Internals-Systems-Approach/dp/0321278542/)เราขอแนะนํา [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468) ที่ยอดเยี่ยมของโรเบิร์ตเลิฟ
+
+วิธีที่ยอดเยี่ยมในการรวมความเข้าใจเกี่ยวกับระบบปฏิบัติการของคุณคือการอ่านโค้ดของเคอร์เนลขนาดเล็กและเพิ่มคุณสมบัติ ทางเลือกหนึ่งคือ [xv6](https://pdos.csail.mit.edu/6.828/2016/xv6.html) ซึ่งเป็นพอร์ตของ Unix V6 ถึง ANSI C และ x86 ได้รับการดูแลสำหรับหลักสูตรที่ MIT OSTEP มีภาคผนวกของ [xv6 lab](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf) ที่มีศักยภาพซึ่งเต็มไปด้วยแนวคิดที่ยอดเยี่ยมสำหรับโครงการที่มีศักยภาพ
+
+[![Operating Systems: Three Easy Pieces](https://teachyourselfcs.com/ostep.jpeg)](http://pages.cs.wisc.edu/~remzi/OSTEP/)
+
+
+
+
 
 
