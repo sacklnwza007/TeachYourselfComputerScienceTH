@@ -19,7 +19,7 @@
 | **[โปรแกรมมิ่ง](#โปรแกรมมิ่ง)**                   | อย่าเป็นคนที่ "ไม่เข้าใจ" recursion function เลย ต้อง หัดโปรแกรมมิ่ง                                                                  | [_Structure and Interpretation of Computer Programs_](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html)     | [Brian Harvey Berkeley CS 61A](https://inst.eecs.berkeley.edu/~cs61a/sp08/)|
 | **[สถาปัตยกรรมคอมพิวเตอร์](#สถาปัตยกรรมคอมพิวเตอร์)**  | ถ้าคุณไม่ได้มีสมองแบบเห็นภาพแบบนามธรรม เรียนเหอะจะได้เข้าใจโครงสร้างการเขียนโปรแกรมได้ดีขึ้น           | [_Computer Systems: A Programmer's Perspective_](https://github.com/smellslikekeenspirit/an-askreddit-list-of-compsci-books/blob/master/Randal%20E.%20Bryant%2C%20David%20R.%20O%E2%80%99Hallaron%20-%20Computer%20Systems.%20A%20Programmer%E2%80%99s%20Perspective%20%5B3rd%20ed.%5D%20(2016%2C%20Pearson).pdf)|[Berkeley CS 61C](https://cs61c.org/)|
 | **[โครงสร้างข้อมูลและอัลกอริทึม](#โครงสร้างข้อมูลและอัลกอริทึม)** | หากไม่ทราบวิธีใช้โครงสร้างข้อมูลที่แพร่หลาย เช่น สแต๊ก คิว โครงสร้างต้นไม้ และกราฟ คุณจะไม่สามารถแก้โจทย์ปัญหาได้เลยนะ | [_The Algorithm Design Manual_](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202)                           | [Steven Skiena’s lectures](https://www3.cs.stonybrook.edu/~skiena/373/videos/)|
-| **[คณิตสำหรับ CS](#คณิตสำหรับCS)**                   | CS เป็นสาขาวิชาคณิตศาสตร์ประยุกต์ที่หลีกเลี่ยงไม่ได้ ดังนั้นการเรียนคณิตศาสตร์จะทำให้คุณได้เปรียบในการแข่งขัน| [_Mathematics for Computer Science_](https://courses.csail.mit.edu/6.042/spring18/mcs.pdf)                      | [Tom Leighton MIT 6.042J](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/)         |
+| **[คณิตสำหรับCS](#คณิตสำหรับCS)**                   | CS เป็นสาขาวิชาคณิตศาสตร์ประยุกต์ที่หลีกเลี่ยงไม่ได้ ดังนั้นการเรียนคณิตศาสตร์จะทำให้คุณได้เปรียบในการแข่งขัน| [_Mathematics for Computer Science_](https://courses.csail.mit.edu/6.042/spring18/mcs.pdf)                      | [Tom Leighton MIT 6.042J](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/)         |
 | **[ระบบปฏิบัติการ หรือ OS](#ระบบปฏิบัติการ-หรือ-OS)**   | โค้ดส่วนใหญ่ที่คุณเขียนทำงานโดยระบบปฏิบัติการ ดังนั้นคุณควรรู้ว่าโค้ดเหล่านั้นโต้ตอบกันอย่างไร | [_Operating Systems: Three Easy Pieces_](https://pages.cs.wisc.edu/~remzi/OSTEP/)                  | [Berkeley CS 162](https://cs162.org/)                   |
 | **[เน็ตเวิร์ค](#เน็ตเวิร์ค)**           | อินเทอร์เน็ตกลายเป็นเรื่องอยู่ทุกที่ในชีวิต ควรเข้าใจวิธีการทํางานเพื่อจะได้เข้าใจอินเตอร์เน็ตมากขึ้น| [_Computer Networking: A Top-Down Approach_](https://eclass.teicrete.gr/modules/document/file.php/TP326/%CE%98%CE%B5%CF%89%CF%81%CE%AF%CE%B1%20(Lectures)/Computer_Networking_A_Top-Down_Approach.pdf)              | [Stanford CS 144](https://cs144.github.io/)                   |
 | **[ฐานข้อมูล](#ฐานข้อมูล)**                 | ข้อมูลเป็นหัวใจสําคัญของโปรแกรมที่สําคัญที่สุด แต่มีเพียงไม่กี่คนที่เข้าใจว่าระบบฐานข้อมูลทํางานอย่างไร | [_Readings in Database Systems_](http://www.redbook.io/)                         | [Joe Hellerstein Berkeley CS 186](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs186-spring2015-berkeley.html) |
@@ -75,4 +75,71 @@
 
 
 [![Structure and Interpretation of Computer Programs](https://teachyourselfcs.com/sicp.jpg)](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html) 
+
+### สถาปัตยกรรมคอมพิวเตอร์
+
+สถาปัตยกรรมคอมพิวเตอร์—บางครั้งเรียกว่า “ระบบคอมพิวเตอร์” หรือ “องค์กรคอมพิวเตอร์”—เป็นสิ่งแรกที่สำคัญในการพิจารณาด้านคอมพิวเตอร์ภายใต้พื้นผิวของซอฟต์แวร์ จากประสบการณ์ของเรา มันเป็นพื้นที่ที่ถูกละเลยมากที่สุดในหมู่วิศวกรซอฟต์แวร์ที่เรียนรู้ด้วยตนเอง
+
+
+หนังสือแนะนำตัวที่เราชื่นชอบคือ [Computer Systems: A Programmer's Perspective](http://csapp.cs.cmu.edu/3e/home.html) และ[หลักสูตรสถาปัตยกรรมคอมพิวเตอร์เบื้องต้น](http://csapp.cs.cmu.edu/3e/courses.html)ทั่วไปที่ใช้หนังสือเล่มนี้จะครอบคลุมส่วนใหญ่ของบทที่ 1-6
+
+
+เรารัก CS:APP สำหรับแนวทางเชิงโปรแกรมเมอร์เชิงปฏิบัติ แม้ว่าสถาปัตยกรรมคอมพิวเตอร์จะมีอะไรมากกว่าที่ครอบคลุมในหนังสือ แต่ก็เป็นจุดเริ่มต้นที่ดีสำหรับผู้ที่ต้องการเข้าใจระบบคอมพิวเตอร์เป็นหลัก เพื่อที่จะเขียนซอฟต์แวร์ได้เร็ว มีประสิทธิภาพมากขึ้น และเชื่อถือได้มากขึ้น
+
+
+สำหรับผู้ที่ต้องการทั้งการแนะนำหัวข้อที่นุ่มนวลกว่าและความสมดุลของข้อกังวลด้านฮาร์ดแวร์และซอฟต์แวร์ เราขอแนะนำ The Elements of Computing Systems หรือที่เรียกว่า “Nand2Tetris” นี่คือหนังสือที่มีความทะเยอทะยานที่พยายามทำให้คุณเข้าใจอย่างแน่วแน่ว่าทุกอย่างในคอมพิวเตอร์ทำงานอย่างไร แต่ละบทเกี่ยวข้องกับการสร้างส่วนเล็กๆ ของระบบโดยรวม ตั้งแต่การเขียนลอจิกเกทเบื้องต้นใน HDL ผ่าน CPU และแอสเซมเบลอร์ ไปจนถึงแอพพลิเคชั่นขนาดเท่าเกม Tetris
+
+เราแนะนำให้อ่านหกบทแรกของหนังสือเล่มนี้และดำเนินโครงการที่เกี่ยวข้องให้เสร็จ สิ่งนี้จะช่วยพัฒนาความเข้าใจของคุณเกี่ยวกับความสัมพันธ์ระหว่างสถาปัตยกรรมของเครื่องและซอฟต์แวร์ที่ทำงานบนเครื่อง
+
+ครึ่งแรกของหนังสือ (และโครงการทั้งหมด) มีให้บริการฟรีจากเว็บไซต์ [and2Tetris](http://www.nand2tetris.org/) นอกจากนี้ยังมีหลักสูตร [Coursera](https://www.coursera.org/learn/build-a-computer) พร้อมวิดีโอประกอบ
+
+
+ในการแสวงหาความเรียบง่ายและความเหนียวแน่น Nand2Tetris แลกเปลี่ยนความลึก โดยเฉพาะอย่างยิ่ง สองแนวคิดที่สำคัญมากในสถาปัตยกรรมคอมพิวเตอร์สมัยใหม่คือPipeliningและลำดับชั้นของหน่วยความจำ แต่ทั้งสองส่วนใหญ่ไม่มีอยู่ในบทความนี้
+
+
+เมื่อคุณรู้สึกสบายใจกับเนื้อหาของ Nand2Tetris เราแนะนำให้กลับไปที่ CS:APP หรือ[Computer Organization and Design](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269) Patterson และ Hennessy ซึ่งเป็นข้อความที่ยอดเยี่ยมและตอนนี้คลาสสิก ไม่ใช่ทุกส่วนในหนังสือที่มีความสำคัญ เราขอแนะนำให้ทำตามหลักสูตร [CS61C](http://inst.eecs.berkeley.edu/~cs61c/sp15/) ของ Berkeley "แนวคิดที่ยอดเยี่ยมในสถาปัตยกรรมคอมพิวเตอร์" สำหรับการอ่านที่เฉพาะเจาะจง บันทึกการบรรยายและห้องทดลองมีให้บริการทางออนไลน์ และการบรรยายที่ผ่านมาจะอยู่ใน Internet Archive
+
+[![Computer Systems: A Programmer's Perspective](https://teachyourselfcs.com/csapp.jpg)](http://csapp.cs.cmu.edu/3e/home.html)
+
+> ฮาร์ดแวร์คือแพลตฟอร์ม
+
+*-- Mike Acton, Engine Director presso Insomniac Games\
+([watch his CppCon talk](https://www.youtube.com/watch?v=rX0ItVEVjHc))*
+
+### โครงสร้างข้อมูลและอัลกอริทึม
+
+เราเห็นด้วยกับภูมิปัญญาทั่วไปหลายทศวรรษที่ความคุ้นเคยกับอัลกอริธึมทั่วไปและโครงสร้างข้อมูลเป็นหนึ่งในแง่มุมที่ส่งเสริมการศึกษาด้านวิทยาการคอมพิวเตอร์มากที่สุด นอกจากนี้ยังเป็นสถานที่ที่ดีเยี่ยมในการฝึกอบรมความสามารถในการแก้ปัญหาทั่วไป ซึ่งจะเป็นประโยชน์ต่อการศึกษาด้านอื่นๆ ทุกด้าน
+
+
+มีหนังสือหลายร้อยเล่ม แต่หนังสือที่เราชอบที่สุดคือ [The Algorithm Design Manual](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/) โดย Steven Skiena เขาชอบการแก้ปัญหาอัลกอริธึมอย่างชัดเจน และมักจะประสบความสำเร็จในการส่งเสริมความกระตือรือร้นที่คล้ายคลึงกันในหมู่นักเรียนและผู้อ่านของเขา ในความเห็นของเรา ข้อความแนะนำสองฉบับ (CLRS และ Sedgewick) มีแนวโน้มที่จะพิสูจน์ได้ยากเกินไปสำหรับผู้ที่เรียนรู้เนื้อหาในเบื้องต้นเพื่อช่วยในการแก้ปัญหาในทางปฏิบัติ
+
+
+สำหรับผู้ที่ชื่นชอบการบรรยายผ่านวิดีโอ [Skiena](https://www3.cs.stonybrook.edu/~skiena/373/videos/) นำเสนอออนไลน์ของเขาอย่างไม่เห็นแก่ตัว เราชอบหลักสูตรของ Tim Roughgarden เช่นกัน ซึ่งมีอยู่ใน [Coursera](https://www.coursera.org/specializations/algorithms) และ[ที่อื่นๆ](http://timroughgarden.org/videos.html) ไม่ว่าคุณจะชอบสไตล์การบรรยายของ Skiena หรือ Roughgarden จะเป็นเรื่องของความชอบส่วนตัว อันที่จริง มีทางเลือกดีๆ มากมายให้เลือก ดังนั้นหากคุณพบตัวเลือกอื่นที่คุณชอบ เราขอแนะนำให้คุณใช้ตัวเลือกนี้ต่อไป!
+
+สำหรับการฝึกฝน แนวทางที่เราต้องการคือให้นักเรียนแก้ปัญหาใน [Leetcode](https://leetcode.com/) สิ่งเหล่านี้มักจะเป็นปัญหาที่น่าสนใจพร้อมแนวทางแก้ไขและการอภิปรายที่เหมาะสม นอกจากนี้ยังช่วยให้คุณทดสอบความคืบหน้ากับคำถามที่มักใช้ในการสัมภาษณ์ทางเทคนิคที่บริษัทซอฟต์แวร์ที่มีการแข่งขันสูง เราขอแนะนำให้แก้ปัญหาแบบสุ่ม leetcode ประมาณ 100 รายการซึ่งเป็นส่วนหนึ่งของการศึกษาของคุณ
+
+
+สุดท้ายนี้ เราขอแนะนำ [How to Solve It](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/) เป็นแนวทางที่ยอดเยี่ยมและไม่ซ้ำใครในการแก้ปัญหาทั่วไป มันใช้ได้กับวิทยาการคอมพิวเตอร์เช่นเดียวกับคณิตศาสตร์
+
+
+[![The Algorithm Design Manual](https://teachyourselfcs.com/skiena.jpg)](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/) [![How to Solve It](https://teachyourselfcs.com/polya.jpg)](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/)
+
+> ฉันมีวิธีการเดียวที่ฉันแนะนำอย่างกว้างขวาง นั่นคือ คิดก่อนเขียน
+
+*— Richard Hamming*
+
+###  คณิตสำหรับCS
+
+ในบางแง่ วิทยาการคอมพิวเตอร์เป็นสาขาหนึ่งของคณิตศาสตร์ประยุกต์ที่รก ในขณะที่วิศวกรซอฟต์แวร์หลายคนพยายาม—และประสบความสำเร็จในระดับต่างๆ—โดยไม่สนใจสิ่งนี้ เราขอแนะนำให้คุณยอมรับมันด้วยการศึกษาโดยตรง การทำเช่นนั้นได้สำเร็จจะทำให้คุณได้เปรียบในการแข่งขันอย่างมหาศาลมากกว่าผู้ที่ไม่..
+
+สาขาวิชาคณิตศาสตร์ที่มีความเกี่ยวข้องมากที่สุดสำหรับ CS นั้นเรียกอย่างกว้าง ๆ ว่า "คณิตศาสตร์แบบไม่ต่อเนื่อง" โดยที่ "ไม่ต่อเนื่อง" ตรงข้ามกับ "แบบต่อเนื่อง" และเป็นกลุ่มของหัวข้อคณิตศาสตร์ประยุกต์ที่น่าสนใจนอกแคลคูลัส ด้วยคำจำกัดความที่คลุมเครือ การพยายามครอบคลุม "คณิตศาสตร์แบบไม่ต่อเนื่อง" จึงไม่มีความหมาย เป้าหมายที่สมจริงยิ่งขึ้นคือการสร้างความเข้าใจในการทำงานของลอจิก คอมบินาโตริก และความน่าจะเป็น ทฤษฎีเซต ทฤษฎีกราฟ และทฤษฎีจำนวนเล็กน้อยที่ให้ข้อมูลการเข้ารหัส พีชคณิตเชิงเส้นเป็นพื้นที่ที่คุ้มค่าสำหรับการศึกษาเพิ่มเติม เนื่องจากมีความสำคัญในคอมพิวเตอร์กราฟิกและการเรียนรู้ของเครื่อง
+
+
+จุดเริ่มต้นที่เราแนะนำสำหรับคณิตศาสตร์แบบไม่ต่อเนื่องคือชุดบันทึกการบรรยายโดย [László Lovász ศาสตราจารย์ Lovász](https://cims.nyu.edu/~regev/teaching/discrete_math_fall_2005/dmbook.pdf) ทำได้ดีมากในการทำให้เนื้อหาเข้าถึงได้ง่ายและเข้าใจง่าย ดังนั้นสิ่งนี้จึงเป็นจุดเริ่มต้นที่ดีกว่าข้อความที่เป็นทางการ
+
+สำหรับการรักษาขั้นสูง เราขอแนะนำ [Mathematics for Computer Science](https://courses.csail.mit.edu/6.042/spring17/mcs.pdf) ซึ่งเป็นบันทึกบรรยายความยาวเป็นหนังสือสำหรับหลักสูตร MIT ที่มีชื่อเดียวกัน วิดีโอบรรยายของหลักสูตรนั้นยังมีให้ใช้งานฟรี และเป็น[วิดีโอบรรยาย](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/)ที่เราแนะนำสำหรับวิชาคณิตศาสตร์แบบไม่ต่อเนื่อง
+
+สําหรับพีชคณิตเชิงเส้นเราขอแนะนําให้เริ่มต้นด้วย[สาระสําคัญของชุดวิดีโอพีชคณิตเชิงเส้น](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)ตามด้วยการบรรยาย[หนังสือ](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/)และ[วิดีโอ](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/)ของกิลเบิร์ตสแตรง
+
+
 
